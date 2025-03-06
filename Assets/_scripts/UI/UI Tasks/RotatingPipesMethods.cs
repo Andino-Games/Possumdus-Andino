@@ -18,16 +18,6 @@ namespace _scripts.UI.UI_Tasks
 
         #region TaskVerificationMethods
 
-        protected override void Update()
-        {
-            base.Update();
-            if (uiTasks.isCompleted && !isDone)
-            {
-                base.CloseTask();
-                isDone = true;
-                
-            }
-        }
         protected override void Start()
         {
             outline.enabled = true;
@@ -41,7 +31,7 @@ namespace _scripts.UI.UI_Tasks
                 if (rotPipes != null)
                 {
                     rotPipes.OnPipeChanged += CheckPipes;
-                    if(rotPipes.isPlaced)
+                    if (rotPipes.isPlaced)
                     {
                         correctPipes++;
                     }
@@ -50,6 +40,17 @@ namespace _scripts.UI.UI_Tasks
             Debug.Log($"Tuberias totales: {totalPipes}, Correctas Inicialmente:{correctPipes}");
         }
 
+        protected override void Update()
+        {
+            base.Update();
+            if (uiTasks.isCompleted && !isDone)
+            {
+                base.CloseTask();
+                isDone = true;
+                
+            }
+        }
+        
         private void CheckPipes(RotatingPipes rotPipes)
         {
             Debug.Log($"Revisando estado de la tubería: {rotPipes.gameObject.name}, isPlaced: {rotPipes.isPlaced}");
