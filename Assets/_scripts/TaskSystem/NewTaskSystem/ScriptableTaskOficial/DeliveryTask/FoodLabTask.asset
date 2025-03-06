@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35eeb9f0562d3754fb9ccb3c4d240f88, type: 3}
+  m_Name: FoodLabTask
+  m_EditorClassIdentifier: 
+  names: Food Lab
+  description: Take 5 mangoes from the crop to the food lab.
+  idTask: 1
+  isReached: 0
+  reachedTask: Food Lab Task Done!
+  taskType: 1
+  requiredAmount: 2
+  currentAmount: 0
+  objectTag: Fruit

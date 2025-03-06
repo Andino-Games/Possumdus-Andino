@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a473192da97a045448eccbd0ddc94906, type: 3}
+  m_Name: ValvesTask
+  m_EditorClassIdentifier: 
+  names: Valves Task
+  description: do the task at the green cube
+  idTask: 9
+  isReached: 0
+  reachedTask: Valves Task done!!
+  taskType: 0
+  value1: B
+  value2: D
+  value3: A
+  value4: C
+  correctCombination:
+  - B
+  - D
+  - A
+  - C

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2601788790516264249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7715303681669119095}
+  - component: {fileID: 5731517673176118617}
+  m_Layer: 0
+  m_Name: TaskManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7715303681669119095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2601788790516264249}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.772994, y: -15.553002, z: 57.18024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5731517673176118617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2601788790516264249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f02cadd1553e5e40b7b6122440c6d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipTask:
+  - {fileID: 11400000, guid: 86fbd8f815a389e43b1c3f746c49156b, type: 2}
+  - {fileID: 11400000, guid: 8851fb0d29ee42046b34bfded653511e, type: 2}
+  - {fileID: 11400000, guid: 51c0a6cae2aae9648a5eecd2762d7947, type: 2}
+  missionTask:
+  - {fileID: 11400000, guid: 2d5c74793f0fa0e4bac76f97068041b2, type: 2}
+  - {fileID: 11400000, guid: 5d3d7173d40c12e4fb5e19f8cd16d8fd, type: 2}
+  - {fileID: 11400000, guid: c4e1f7bb90e08ab46a1c07d45add4a99, type: 2}
+  - {fileID: 11400000, guid: 40d9d9162f6c30249b56eb248fa46a58, type: 2}
+  - {fileID: 11400000, guid: c9eae5125f5d76f41a933994bca9bf75, type: 2}
+  - {fileID: 11400000, guid: e59253b018b84b64eb81098c390fa205, type: 2}
+  taskView: {fileID: 0}
+  missionTasksCompleted: 0
+  shipTasksCompleted: 0
